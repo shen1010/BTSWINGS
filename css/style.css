@@ -1,0 +1,62 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(https://www.sbs.com.au/popasia/sites/sbs.com.au.popasia/files/btssdn6_0.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 750px;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 100px 0px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+  border: solid 2px #871727;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #871727;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(http://miner8.com/tw/wp-content/uploads/2016/12/BTSWings-2.jpg);
+  height: 300px;
+  background-size: cover;
+}
+section#section_ask h2 {
+  margin-top: 110px;
+  padding: 0px 40px;
+  color: white;
+}
+section#section_ask h3 {
+  padding: 0px 40px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+section#section_about img {
+  width: 100%;
+}
+section#section_about .img_wrap {
+  height: 150px;
+  overflow: hidden;
+}
